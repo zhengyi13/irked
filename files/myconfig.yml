@@ -1,0 +1,18 @@
+---
+servers:
+  - name: freenode-plain
+    host: chat.freenode.net
+    port: 6667
+    tls: false
+    nick: wizard
+    user: wizard@bar
+    pass: hunter2
+    fullname: Wizard Hat
+  - name: freenode-ssl
+    host: chat.freenode.net
+    port: 6697
+    tls: true
+    nick: robe
+    user: robe@foo
+    pass: hunter2
+    fullname: Red Robe
