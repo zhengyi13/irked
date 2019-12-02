@@ -26,7 +26,7 @@ type ServerConfig struct {
 }
 
 func main() {
-	data, err := ioutil.ReadFile("~/irked-workspace/files/myconfig.yml")
+	data, err := ioutil.ReadFile("./files/myconfig.yml")
 	if err != nil {
 		log.Fatalln(err)
 	}
